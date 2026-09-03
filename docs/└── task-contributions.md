@@ -6,31 +6,29 @@ and supporting evidence.
 
 ---
 
-## 1. Contribution Summary
+## 1. Task Summary
 
-| Phase | Task | Contributor | Status | Output / Evidence |
-|---|---|---|---|---|
-| Data Collection | Workload data collection | TBD | ✅ Completed | Workload CSV datasets |
-| Data Collection | Process-level metric collection | TBD | ✅ Completed | Process-level CSV datasets |
-| Monitoring | Grafana setup | TBD | ✅ Completed | Grafana dashboard |
-| Monitoring | System metric visualization | TBD | ✅ Completed | Grafana visualizations |
-| Repository | GitHub repository setup | TBD | ✅ Completed | GitHub repository |
-| Documentation | README | TBD | ✅ Completed | `README.md` |
-| Documentation | Project overview | TBD | ✅ Completed | `docs/project-overview.md` |
-| Documentation | Progress tracking | TBD | ✅ Completed | `docs/progress-log.md` |
-| Dataset Analysis | Dataset inspection | TBD | 🟡 In Progress | — |
-| Dataset Analysis | Exploratory Data Analysis | TBD | ⬜ Pending | — |
-| ML | Workload classification | TBD | ⬜ Pending | — |
-| ML | Behavior clustering | TBD | ⬜ Pending | — |
-| ML | Anomaly detection | TBD | ⬜ Pending | — |
-| ML | Workload forecasting | TBD | ⬜ Pending | — |
-| ML | SLA-risk prediction | TBD | ⬜ Pending | — |
-| Intelligence | Root-cause analysis | TBD | ⬜ Pending | — |
-| Intelligence | Explainability | TBD | ⬜ Pending | — |
-| Optimization | Optimization engine | TBD | ⬜ Pending | — |
-| Agent | Intelligent optimization agent | TBD | ⬜ Pending | — |
-
----
+| Phase | Task | Status | Output / Evidence |
+|---|---|---|---|
+| Data Collection | Workload data collection | ✅ Completed | Workload CSV datasets |
+| Data Collection | Process-level metric collection | ✅ Completed | Process-level CSV datasets |
+| Monitoring | Grafana setup | ✅ Completed | Grafana dashboard |
+| Monitoring | System metric visualization | ✅ Completed | Grafana visualizations |
+| Repository | GitHub repository setup | ✅ Completed | GitHub repository |
+| Documentation | README | ✅ Completed | `README.md` |
+| Documentation | Project overview | ✅ Completed | `docs/project-overview.md` |
+| Documentation | Progress tracking | ✅ Completed | `docs/progress-log.md` |
+| Dataset Analysis | Dataset inspection | 🟡 In Progress | — |
+| Dataset Analysis | Exploratory Data Analysis | ⬜ Pending | — |
+| ML | Workload classification | ⬜ Pending | — |
+| ML | Behavior clustering | ⬜ Pending | — |
+| ML | Anomaly detection | ⬜ Pending | — |
+| ML | Workload forecasting | ⬜ Pending | — |
+| ML | SLA-risk prediction | ⬜ Pending | — |
+| Intelligence | Root-cause analysis | ⬜ Pending | — |
+| Intelligence | Explainability | ⬜ Pending | — |
+| Optimization | Optimization engine | ⬜ Pending | — |
+| Agent | Intelligent optimization agent | ⬜ Pending | — |
 
 ## 2. Completed Work
 
@@ -51,10 +49,10 @@ and supporting evidence.
 
 | Contributor | Contribution | Area |
 |---|---|---|
-| TBD | Workload generation / data collection | Data Collection |
-| TBD | Process-level data collection | Data Collection |
-| TBD | Grafana setup | Monitoring |
-| TBD | Dashboard / visualization creation | Monitoring |
+| Ashish, Samriddhi, Arshita, Ujjwal, Eshita | Workload generation / data collection | Data Collection |
+| Ashish, Samriddhi, Arshita, Ujjwal, Eshita | Process-level data collection | Data Collection |
+| Eshita, Ujjwal | Grafana setup | Monitoring |
+| Eshita, Ujjwal | Dashboard / visualization creation | Monitoring |
 
 #### Evidence
 
@@ -75,11 +73,11 @@ system monitoring and data collection phase.
 
 | Contributor | Contribution | Repository Location |
 |---|---|---|
-| TBD | GitHub repository setup | Repository |
-| TBD | README creation | `README.md` |
-| TBD | Project overview documentation | `docs/project-overview.md` |
-| TBD | Development progress documentation | `docs/progress-log.md` |
-| TBD | Contribution tracking structure | `docs/task-contributions.md` |
+| Samriddhi | GitHub repository setup | Repository |
+| Samriddhi | README creation | `README.md` |
+| Samriddhi | Project overview documentation | `docs/project-overview.md` |
+| Samriddhi | Development progress documentation | `docs/progress-log.md` |
+| Samriddhi | Contribution tracking structure | `docs/task-contributions.md` |
 
 ---
 
