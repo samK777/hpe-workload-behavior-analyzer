@@ -117,48 +117,53 @@ collected for analysis.
 ---
 
 ## 6. High-Level System Pipeline
-
-
 System / Workload Metrics
-          │
-          ▼
-   Data Collection
-          │
-          ▼
-    Preprocessing
-          │
-          ▼
-  Feature Engineering
-          │
-          ▼
- ┌──────────────────────┐
- │ Workload Analysis    │
- ├──────────────────────┤
- │ Classification       │
- │ Clustering           │
- │ Anomaly Detection    │
- │ Forecasting          │
- │ SLA-Risk Prediction  │
- └──────────────────────┘
-          │
-          ▼
-   Root-Cause Analysis
-          │
-          ▼
-     Explainability
-          │
-          ▼
- Optimization Engine
-          │
-          ▼
-   Intelligent Agent
-          │
-          ▼
- Recommended / Automated
-       Actions
-          │
-          ▼
-   Feedback & Learning
+
+↓
+
+Data Collection
+
+↓
+
+Preprocessing
+
+↓
+
+Feature Engineering
+
+↓
+
+Workload Analysis
+
+Workload Classification
+Behavior Clustering
+Anomaly Detection
+Workload Forecasting
+SLA-Risk Prediction
+
+↓
+
+Root-Cause Analysis
+
+↓
+
+Explainability
+
+↓
+
+Optimization Engine
+
+↓
+
+Intelligent Agent
+
+↓
+
+Recommended / Automated Actions
+
+↓
+
+Feedback & Learning
 
 ## 7. Data Collection and Monitoring
 
