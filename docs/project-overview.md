@@ -117,54 +117,23 @@ collected for analysis.
 ---
 
 ## 6. High-Level System Pipeline
-System / Workload Metrics
+### Pipeline
 
-↓
+| Stage | Description |
+|---|---|
+| **1. Data Collection** | Collect system, workload, and process-level performance metrics. |
+| **2. Preprocessing** | Clean, validate, normalize, and prepare the collected data. |
+| **3. Feature Engineering** | Extract meaningful features representing workload and system behavior. |
+| **4. Workload Analysis** | Perform classification, clustering, anomaly detection, forecasting, and SLA-risk prediction. |
+| **5. Root-Cause Analysis** | Analyze metric relationships and dependencies to identify possible causes of abnormal behavior. |
+| **6. Explainability** | Explain model predictions and identify important contributing features. |
+| **7. Optimization Engine** | Generate suitable system optimization actions based on observed behavior. |
+| **8. Intelligent Agent** | Follow an Observe → Reason → Plan → Validate → Act workflow. |
+| **9. Feedback & Learning** | Evaluate action outcomes and use feedback to improve future decisions. |
 
-Data Collection
+### Overall Flow
 
-↓
-
-Preprocessing
-
-↓
-
-Feature Engineering
-
-↓
-
-Workload Analysis
-
-Workload Classification
-Behavior Clustering
-Anomaly Detection
-Workload Forecasting
-SLA-Risk Prediction
-
-↓
-
-Root-Cause Analysis
-
-↓
-
-Explainability
-
-↓
-
-Optimization Engine
-
-↓
-
-Intelligent Agent
-
-↓
-
-Recommended / Automated Actions
-
-↓
-
-Feedback & Learning
-
+**Data Collection → Preprocessing → Feature Engineering → Workload Analysis → Root-Cause Analysis → Explainability → Optimization → Intelligent Agent → Feedback & Learning**
 ## 7. Data Collection and Monitoring
 
 The initial data collection phase was completed in August 2026.
