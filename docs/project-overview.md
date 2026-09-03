@@ -118,7 +118,7 @@ collected for analysis.
 
 ## 6. High-Level System Pipeline
 
-```text
+
 System / Workload Metrics
           │
           ▼
@@ -159,7 +159,8 @@ System / Workload Metrics
           │
           ▼
    Feedback & Learning
-7. Data Collection and Monitoring
+
+## 7. Data Collection and Monitoring
 
 The initial data collection phase was completed in August 2026.
 
@@ -173,7 +174,7 @@ This data forms the foundation for the subsequent exploratory data
 analysis, preprocessing, feature engineering, and machine learning
 stages.
 
-8. Expected Outcomes
+## 8. Expected Outcomes
 
 The completed system is expected to provide capabilities for:
 
@@ -187,5 +188,42 @@ Supporting root-cause analysis
 Explaining model predictions
 Recommending system optimization actions
 Learning from the outcomes of optimization actions
+
+## 9. Current Development Status
+
+### Completed
+
+- Initial data collection
+- Workload and process-level dataset collection
+- Grafana-based system metric visualization
+- Initial AI/ML component mapping
+- GitHub repository setup
+- Project documentation setup
+
+### In Progress
+
+- Dataset organization and inspection
+- Exploratory data analysis
+- Data preprocessing
+- Feature engineering
+- Baseline machine learning models
+
+### Planned
+
+- Complete workload analysis pipeline
+- Anomaly detection
+- Forecasting
+- SLA-risk prediction
+- Root-cause analysis
+- Explainability
+- Optimization engine
+- Intelligent optimization agent
+- Continuous learning
+
+## 10. Project Development Philosophy
+
+The project is being developed as a modular AI/ML system so that individual components can be developed, tested, evaluated, and improved independently.
+
+The repository will maintain documentation of datasets, experiments, model performance, implementation decisions, and development progress throughout the project lifecycle.
 
 
