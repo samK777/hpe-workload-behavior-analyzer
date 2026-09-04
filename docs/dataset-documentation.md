@@ -194,20 +194,14 @@ It provides process-specific resource utilization and activity.
 
 The relationship between the datasets enables the project to move from:
 
-
-System Behavior
-      ↓
-Workload Identification
-      ↓
-Abnormal / Significant Behavior
-      ↓
-Process-Level Investigation
-      ↓
-Potential Root Cause
-      ↓
-Optimization Decision
-
-
+```mermaid
+flowchart LR
+    A[System Behavior] --> B[Workload Identification]
+    B --> C[Abnormal / Significant Behavior]
+    C --> D[Process-Level Investigation]
+    D --> E[Potential Root Cause]
+    E --> F[Optimization Decision]
+```
 ## 8. Initial System-Level Observations
 
 Initial analysis of the final system dataset shows differences in resource
