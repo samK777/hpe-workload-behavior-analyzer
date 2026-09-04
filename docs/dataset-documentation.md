@@ -194,7 +194,7 @@ It provides process-specific resource utilization and activity.
 
 The relationship between the datasets enables the project to move from:
 
-```text
+
 System Behavior
       ↓
 Workload Identification
@@ -206,3 +206,142 @@ Process-Level Investigation
 Potential Root Cause
       ↓
 Optimization Decision
+
+
+## 8. Initial System-Level Observations
+
+Initial analysis of the final system dataset shows differences in resource
+behavior across workload categories.
+
+CPU Utilization
+
+The highest average CPU utilization was observed for:
+
+Gaming: 87.87%
+Bursty: 84.69%
+
+Other workloads showed substantially lower average CPU utilization.
+
+Memory Utilization
+
+The highest average memory utilization was observed for:
+
+Normal: 90.70%
+Gaming: 88.56%
+Mixed: 85.01%
+Bursty: 84.08%
+Disk Activity
+
+Disk-intensive workloads showed high disk activity, as expected.
+
+Average disk write activity was particularly high for:
+
+Stress: 17.41 MB/s
+Disk-intensive: 17.09 MB/s
+
+Gaming showed the highest average disk read activity at approximately
+17.96 MB/s.
+
+Network Activity
+
+Network-intensive workloads showed the highest average network receive
+activity at approximately 1.25 MB/s.
+
+## 9. Important Observation
+
+The workload labels cannot be assumed to be perfectly separable using a
+single resource metric.
+
+For example, the average CPU utilization of the cpu_intensive workload
+was approximately 23.51%, while gaming and bursty workloads showed
+much higher average CPU utilization.
+
+This indicates that workload behavior should be analyzed using multiple
+features and temporal patterns rather than relying only on individual
+mean resource values.
+
+This observation motivates the use of:
+
+Multivariate analysis
+Time-series analysis
+Feature engineering
+Workload classification
+Clustering
+Anomaly detection
+## 10. Machine Learning Relevance
+
+The datasets support multiple components of the proposed AI/ML pipeline.
+
+Component	Primary Data
+Workload Classification	System Metrics
+Behavior Clustering	System Metrics
+Anomaly Detection	System Metrics
+Workload Forecasting	System Metrics
+SLA-Risk Prediction	System + Process Metrics
+Root-Cause Analysis	System + Process Metrics
+Explainability	Model outputs + System Metrics
+Optimization	System + Process Metrics
+Continuous Learning	Historical system and process observations
+
+The system metrics provide the primary signal for understanding workload
+behavior, while process metrics can provide supporting evidence for
+identifying potential sources of resource consumption.
+
+## 11. Planned Data Processing
+
+Before model development, the datasets will undergo preprocessing and
+feature engineering.
+
+The planned workflow is:
+
+Raw Final Dataset
+       ↓
+Data Validation
+       ↓
+Missing Value Handling
+       ↓
+Data Type Conversion
+       ↓
+Timestamp Processing
+       ↓
+Feature Engineering
+       ↓
+Exploratory Data Analysis
+       ↓
+Feature Selection
+       ↓
+Model Preparation
+
+Specific preprocessing decisions will be documented after exploratory
+data analysis.
+
+## 12. Future Analysis
+
+The next stage of dataset analysis will include:
+
+Detailed exploratory data analysis
+Workload-wise metric distributions
+Correlation analysis
+Time-series visualization
+Detection of resource usage patterns
+Feature importance analysis
+Identification of potential anomalies
+Relationship between system-level and process-level behavior
+Preparation of baseline ML datasets
+
+The findings from these analyses will be documented separately in the
+EDA notebook and experiment documentation.
+
+## 13. Data Usage
+
+The final merged datasets are maintained in the repository under:
+
+data/
+├── merged_system_metrics.csv
+└── merged_process_metrics.csv
+
+These files represent the current final datasets for the project.
+
+Future derived datasets, engineered features, or model-specific datasets
+should be clearly separated from these final source datasets to maintain
+reproducibility and traceability.
