@@ -288,23 +288,17 @@ feature engineering.
 
 The planned workflow is:
 
-Raw Final Dataset
-       ↓
-Data Validation
-       ↓
-Missing Value Handling
-       ↓
-Data Type Conversion
-       ↓
-Timestamp Processing
-       ↓
-Feature Engineering
-       ↓
-Exploratory Data Analysis
-       ↓
-Feature Selection
-       ↓
-Model Preparation
+```mermaid
+flowchart TD
+    A[Raw Final Dataset] --> B[Data Validation]
+    B --> C[Missing Value Handling]
+    C --> D[Data Type Conversion]
+    D --> E[Timestamp Processing]
+    E --> F[Feature Engineering]
+    F --> G[Exploratory Data Analysis]
+    G --> H[Feature Selection]
+    H --> I[Model Preparation]
+```
 
 Specific preprocessing decisions will be documented after exploratory
 data analysis.
@@ -330,9 +324,11 @@ EDA notebook and experiment documentation.
 
 The final merged datasets are maintained in the repository under:
 
+```text
 data/
 ├── merged_system_metrics.csv
 └── merged_process_metrics.csv
+```
 
 These files represent the current final datasets for the project.
 
